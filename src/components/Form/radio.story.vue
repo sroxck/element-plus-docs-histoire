@@ -26,7 +26,7 @@ const radioChange = (e: string | number | boolean) => {
 </script>
 
 <template>
-  <Story title="Form/Radio">
+  <Story title="Form/Radio" icon="material-symbols:radio-button-checked-outline">
     <Variant title="Basic Usage">
       <el-radio v-model="radio" :size="currentSize" label="1">
         Option 1
